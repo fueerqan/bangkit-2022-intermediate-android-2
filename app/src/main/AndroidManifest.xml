@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ILT5IntermediateAndroid">
         <activity
+            android:name=".unittest.CalculatorActivity"
+            android:exported="false" />
+        <activity
             android:name=".maps.MapsActivity"
             android:exported="false" />
         <activity
